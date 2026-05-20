@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: https://ogp.me/ns#" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subastas BOE Inmuebles — Viviendas en subasta judicial España</title>
+  <meta name="description"
+    content="Consulta subastas judiciales de inmuebles y viviendas publicadas en el BOE. Filtra por provincia, precio, estado y cargas. Datos actualizados directamente del portal oficial de subastas.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://example.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Subastas BOE — Inmuebles y Viviendas en Subasta Judicial">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:locale" content="es_ES">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --radius: 5px;
+      --radius-lg: 10px;
+      --mono: 'DM Mono', monospace;
+      --sans: 'DM Sans', sans-serif;
+      --display: 'Syne', sans-serif;
+      --transition: 0.2s ease;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0b0b0a;
+      --surface: #141413;
+      --surface2: #1c1c1a;
+      --surface3: #232321;
+      --border: #282826;
+      --border2: #363633;
+      --text: #ede9e0;
+      --muted: #7a776e;
+      --muted2: #5a5852;
+      --accent: #d4a853;
+      --green: #7dc47d;
+      --blue: #7ab0d4;
+      --red: #d47a7a;
+      --orange: #d4934a;
+      --shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+    }
+
+    [data-theme="light"] {
+      --bg: #f5f3ee;
+      --surface: #ffffff;
+      --surface2: #f0ede7;
+      --surface3: #e8e4dc;
+      --border: #ddd9d0;
+      --border2: #cac5bb;
+      --text: #1a1916;
+      --muted: #7a776e;
+      --muted2: #9a978e;
+      --accent: #b8860b;
+      --green: #3a7a3a;
+      --blue: #2a6a9a;
+      --red: #9a3a3a;
+      --orange: #b85a1a;
+      --shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 14px;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      transition: background var(--transition), color var(--transition);
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 0 28px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      transition: background var(--transition), border-color var(--transition);
+    }
+
+    [data-theme="dark"] header {
+      background: rgba(11, 11, 10, 0.94);
+      backdrop-filter: blur(12px);
+    }
+
+    [data-theme="light"] header {
+      background: rgba(245, 243, 238, 0.94);
+      backdrop-filter: blur(12px);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: var(--display);
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text);
+    }
+
+    .logo-mark {
+      width: 32px;
+      height: 32px;
+      border: 1px solid var(--accent);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-sub {
+      font-family: var(--mono);
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-updated {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .header-updated span {
+      color: var(--text);
+    }
+
+    .theme-btn {
+      width: 34px;
+      height: 34px;
+      background: none;
+      border: 1px solid var(--border2);
+      border-radius: var(--radius);
+      color: var(--muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: color var(--transition), border-color var(--transition);
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .theme-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .boe-link {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 5px 10px;
+      border: 1px solid var(--border2);
+      border-radius: var(--radius);
+      transition: color var(--transition), border-color var(--transition);
+    }
+
+    .boe-link:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 272px 1fr;
+      min-height: calc(100vh - 60px);
+    }
+
+    aside {
+      border-right: 1px solid var(--border);
+      padding: 24px 18px;
+      position: sticky;
+      top: 60px;
+      height: calc(100vh - 60px);
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border2) transparent;
+      transition: border-color var(--transition);
+    }
+
+    .aside-title {
+      font-family: var(--display);
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .filter-section {
+      margin-bottom: 22px;
+    }
+
+    .filter-label {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted2);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select {
+      width: 100%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 13px;
+      padding: 8px 10px;
+      outline: none;
+      appearance: none;
+      transition: border-color var(--transition), background var(--transition);
+    }
+
+    input:focus,
+    select:focus {
+      border-color: var(--border2);
+      background: var(--surface3);
+    }
+
+    select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%237a776e' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+      padding-right: 30px;
+    }
+
+    select option {
+      background: var(--surface2);
+      color: var(--text);
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .chip {
+      display: inline-flex;
+    }
+
+    .chip input {
+      display: none;
+    }
+
+    .chip-label {
+      padding: 5px 11px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: 12px;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all var(--transition);
+      user-select: none;
+    }
+
+    .chip input:checked+.chip-label {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--bg);
+      font-weight: 500;
+    }
+
+    .chip-label:hover {
+      border-color: var(--border2);
+      color: var(--text);
+    }
+
+    /* ── Días restantes slider ── */
+    .dias-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .dias-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .dias-value {
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--accent);
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 3px 9px;
+      min-width: 64px;
+      text-align: center;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      appearance: none;
+      background: none;
+      padding: 0;
+      height: 20px;
+      cursor: pointer;
+    }
+
+    input[type="range"]::-webkit-slider-runnable-track {
+      height: 3px;
+      border-radius: 2px;
+      background: linear-gradient(to right, var(--accent) var(--pct, 0%), var(--border2) var(--pct, 0%));
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      appearance: none;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 2px solid var(--bg);
+      margin-top: -5.5px;
+      transition: transform 0.1s;
+    }
+
+    input[type="range"]::-webkit-slider-thumb:hover {
+      transform: scale(1.2);
+    }
+
+    input[type="range"]::-moz-range-track {
+      height: 3px;
+      border-radius: 2px;
+      background: var(--border2);
+    }
+
+    input[type="range"]::-moz-range-progress {
+      background: var(--accent);
+      height: 3px;
+      border-radius: 2px;
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 2px solid var(--bg);
+    }
+
+    .dias-hint {
+      font-size: 11px;
+      color: var(--muted2);
+      font-family: var(--mono);
+    }
+
+    #btn-reset {
+      width: 100%;
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--muted);
+      font-family: var(--sans);
+      font-size: 12px;
+      padding: 8px;
+      cursor: pointer;
+      transition: all var(--transition);
+      margin-top: 6px;
+    }
+
+    #btn-reset:hover {
+      border-color: var(--border2);
+      color: var(--text);
+    }
+
+    main {
+      padding: 24px 28px;
+    }
+
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 16px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      transition: background var(--transition), border-color var(--transition);
+    }
+
+    .stat-num {
+      font-family: var(--display);
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+
+    .stat-lbl {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-family: var(--mono);
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .results-count {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .results-count strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .sort-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .sort-lbl {
+      font-size: 12px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .sort-wrap select {
+      width: auto;
+      padding: 6px 30px 6px 10px;
+      font-size: 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 12px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: border-color var(--transition), transform 0.15s, background var(--transition);
+    }
+
+    .card:hover {
+      border-color: var(--border2);
+      transform: translateY(-1px);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-id {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--muted2);
+      letter-spacing: 0.05em;
+    }
+
+    .badge {
+      font-size: 10px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-weight: 500;
+      white-space: nowrap;
+      font-family: var(--mono);
+      letter-spacing: 0.04em;
+    }
+
+    .badge-active {
+      background: rgba(125, 196, 125, 0.1);
+      color: var(--green);
+      border: 1px solid rgba(125, 196, 125, 0.25);
+    }
+
+    .badge-prox {
+      background: rgba(122, 176, 212, 0.1);
+      color: var(--blue);
+      border: 1px solid rgba(122, 176, 212, 0.25);
+    }
+
+    .badge-done {
+      background: rgba(212, 122, 122, 0.1);
+      color: var(--red);
+      border: 1px solid rgba(212, 122, 122, 0.25);
+    }
+
+    .card-locality {
+      font-family: var(--display);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    .card-prov {
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 400;
+      font-family: var(--sans);
+      margin-left: 6px;
+    }
+
+    .card-specs {
+      display: flex;
+      gap: 0;
+      background: var(--surface2);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: background var(--transition);
+    }
+
+    .spec {
+      flex: 1;
+      padding: 8px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      border-right: 1px solid var(--border);
+    }
+
+    .spec:last-child {
+      border-right: none;
+    }
+
+    .spec-val {
+      font-family: var(--mono);
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text);
+      line-height: 1;
+    }
+
+    .spec-key {
+      font-size: 9px;
+      color: var(--muted2);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .card-price {
+      padding: 12px 14px;
+      background: var(--surface2);
+      border-radius: var(--radius);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      transition: background var(--transition);
+    }
+
+    .price-desc {
+      font-size: 10px;
+      color: var(--muted2);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-family: var(--mono);
+      margin-bottom: 3px;
+    }
+
+    .price-salida {
+      font-family: var(--display);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+
+    .price-tasacion {
+      font-size: 11px;
+      color: var(--muted);
+      font-family: var(--mono);
+      margin-top: 4px;
+    }
+
+    .descuento-pill {
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 500;
+      padding: 4px 9px;
+      border-radius: var(--radius);
+      background: rgba(212, 168, 83, 0.12);
+      color: var(--accent);
+      border: 1px solid rgba(212, 168, 83, 0.2);
+    }
+
+    .cargas {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 11px;
+      font-family: var(--mono);
+    }
+
+    .cargas-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .cargas-sin {
+      color: var(--green);
+    }
+
+    .cargas-sin .cargas-dot {
+      background: var(--green);
+    }
+
+    .cargas-con {
+      color: var(--red);
+    }
+
+    .cargas-con .cargas-dot {
+      background: var(--red);
+    }
+
+    .card-footer {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      border-top: 1px solid var(--border);
+      padding-top: 10px;
+    }
+
+    .card-footer-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .dates-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .date-pill {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      background: var(--surface2);
+      border-radius: var(--radius);
+      padding: 5px 9px;
+    }
+
+    .date-pill-lbl {
+      font-family: var(--mono);
+      font-size: 9px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted2);
+    }
+
+    .date-pill-val {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .date-arrow {
+      font-size: 12px;
+      color: var(--muted2);
+    }
+
+    .countdown {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .countdown-segments {
+      display: flex;
+      gap: 3px;
+      align-items: center;
+    }
+
+    .cd-seg {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: var(--surface2);
+      border-radius: 3px;
+      padding: 3px 5px;
+      min-width: 32px;
+    }
+
+    .cd-num {
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 1;
+      color: var(--text);
+    }
+
+    .cd-lbl {
+      font-family: var(--mono);
+      font-size: 8px;
+      color: var(--muted2);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-top: 1px;
+    }
+
+    .cd-sep {
+      font-family: var(--mono);
+      font-size: 13px;
+      color: var(--muted2);
+      margin-bottom: 10px;
+    }
+
+    .cd-urgent .cd-num {
+      color: var(--red);
+    }
+
+    .cd-warning .cd-num {
+      color: var(--orange);
+    }
+
+    .cd-ok .cd-num {
+      color: var(--green);
+    }
+
+    .cd-tag {
+      font-family: var(--mono);
+      font-size: 9px;
+      padding: 2px 6px;
+      border-radius: 3px;
+      white-space: nowrap;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .cd-tag-urgent {
+      background: rgba(212, 122, 122, 0.1);
+      color: var(--red);
+      border: 1px solid rgba(212, 122, 122, 0.2);
+    }
+
+    .cd-tag-warning {
+      background: rgba(212, 147, 74, 0.1);
+      color: var(--orange);
+      border: 1px solid rgba(212, 147, 74, 0.2);
+    }
+
+    .cd-tag-ok {
+      background: rgba(125, 196, 125, 0.1);
+      color: var(--green);
+      border: 1px solid rgba(125, 196, 125, 0.2);
+    }
+
+    .cd-tag-done {
+      background: rgba(90, 88, 82, 0.15);
+      color: var(--muted);
+      border: 1px solid rgba(90, 88, 82, 0.2);
+    }
+
+    .cd-tag-soon {
+      background: rgba(122, 176, 212, 0.1);
+      color: var(--blue);
+      border: 1px solid rgba(122, 176, 212, 0.2);
+    }
+
+    .btn-boe {
+      font-size: 11px;
+      font-family: var(--mono);
+      padding: 5px 11px;
+      background: none;
+      border: 1px solid var(--border2);
+      border-radius: var(--radius);
+      color: var(--muted);
+      cursor: pointer;
+      text-decoration: none;
+      transition: all var(--transition);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      white-space: nowrap;
+    }
+
+    .btn-boe:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .empty {
+      grid-column: 1/-1;
+      text-align: center;
+      padding: 80px 0;
+      color: var(--muted);
+    }
+
+    .empty-icon {
+      font-size: 36px;
+      margin-bottom: 16px;
+      opacity: 0.4;
+    }
+
+    .empty-title {
+      font-family: var(--display);
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .empty-sub {
+      font-size: 13px;
+    }
+
+    ::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--border2);
+      border-radius: 4px;
+    }
+
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      aside {
+        position: static;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .stats-bar {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      main {
+        padding: 16px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      header {
+        padding: 0 16px;
+      }
+
+      .logo-sub,
+      .header-updated {
+        display: none;
+      }
+
+      main {
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <div class="logo-mark">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <rect x="2" y="2" width="6" height="6" fill="#d4a853" />
+          <rect x="10" y="2" width="6" height="6" fill="#d4a853" opacity=".5" />
+          <rect x="2" y="10" width="6" height="6" fill="#d4a853" opacity=".5" />
+          <rect x="10" y="10" width="6" height="6" fill="#d4a853" opacity=".25" />
+        </svg>
+      </div>
+      <div>
+        <div>Subastas <span style="color:var(--accent)">BOE</span></div>
+        <div class="logo-sub">Inmuebles · España</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="header-updated">Actualizado: <span id="js-updated">—</span></div>
+      <button class="theme-btn" id="btn-theme" title="Cambiar tema"
+        aria-label="Cambiar entre modo oscuro y claro">🌙</button>
+      <a class="boe-link" href="https://subastas.boe.es" target="_blank" rel="noopener noreferrer">BOE ↗</a>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside role="search" aria-label="Filtros">
+      <div class="aside-title">Filtros</div>
+
+      <div class="filter-section">
+        <label class="filter-label" for="f-search">Búsqueda</label>
+        <input type="text" id="f-search" placeholder="Localidad, dirección, CP…" autocomplete="off" spellcheck="false">
+      </div>
+
+      <div class="filter-section">
+        <label class="filter-label">Estado</label>
+        <div class="chips">
+          <label class="chip"><input type="radio" name="estado" value="" checked><span
+              class="chip-label">Todas</span></label>
+          <label class="chip"><input type="radio" name="estado" value="celebrandose"><span
+              class="chip-label">Activas</span></label>
+          <label class="chip"><input type="radio" name="estado" value="proxima_apertura"><span
+              class="chip-label">Próximas</span></label>
+          <label class="chip"><input type="radio" name="estado" value="finalizada"><span
+              class="chip-label">Finalizadas</span></label>
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <label class="filter-label" for="f-provincia">Provincia</label>
+        <select id="f-provincia">
+          <option value="">Todas las provincias</option>
+        </select>
+      </div>
+
+      <div class="filter-section">
+        <label class="filter-label">Precio de salida (€)</label>
+        <div class="range-row" style="display:grid;grid-template-columns:1fr 1fr;gap:6px;">
+          <input type="number" id="f-precio-min" placeholder="Mín." min="0">
+          <input type="number" id="f-precio-max" placeholder="Máx." min="0">
+        </div>
+      </div>
+
+      <!-- NUEVO: Días para cierre -->
+      <div class="filter-section">
+        <label class="filter-label">Cierra en menos de…</label>
+        <div class="dias-wrap">
+          <div class="dias-header">
+            <span class="dias-hint">Solo activas con fecha</span>
+            <span class="dias-value" id="dias-val">Todos</span>
+          </div>
+          <input type="range" id="f-dias" min="0" max="60" value="0" step="1" aria-label="Días máximos para el cierre">
+          <div style="display:flex;justify-content:space-between;">
+            <span class="dias-hint">Sin límite</span>
+            <span class="dias-hint">60 días</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <label class="filter-label">Cargas</label>
+        <div class="chips">
+          <label class="chip"><input type="radio" name="cargas" value="" checked><span
+              class="chip-label">Todas</span></label>
+          <label class="chip"><input type="radio" name="cargas" value="sin"><span class="chip-label">Sin
+              cargas</span></label>
+          <label class="chip"><input type="radio" name="cargas" value="con"><span class="chip-label">Con
+              cargas</span></label>
+        </div>
+      </div>
+
+      <button id="btn-reset" type="button">↺ Limpiar filtros</button>
+    </aside>
+
+    <main>
+      <div class="stats-bar">
+        <div class="stat-card">
+          <div class="stat-num" id="stat-total">—</div>
+          <div class="stat-lbl">Total subastas</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" id="stat-activas">—</div>
+          <div class="stat-lbl">Activas</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" id="stat-proximas">—</div>
+          <div class="stat-lbl">Próximas</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" id="stat-precio-med">—</div>
+          <div class="stat-lbl">Precio medio</div>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <div class="results-count">Mostrando <strong id="count-visible">0</strong> de <strong
+            id="count-total">0</strong> subastas</div>
+        <div class="sort-wrap">
+          <label class="sort-lbl" for="f-sort">Ordenar:</label>
+          <select id="f-sort">
+            <option value="precio_asc">Precio: menor primero</option>
+            <option value="precio_desc">Precio: mayor primero</option>
+            <option value="descuento_desc">Mayor descuento</option>
+          </select>
+        </div>
+      </div>
+
+      <section class="grid" id="grid" aria-label="Listado de subastas" role="list">
+        <div
+          style="grid-column:1/-1;padding:40px 0;text-align:center;color:var(--muted);font-family:var(--mono);font-size:12px;">
+          Cargando subastas…
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer
+    style="border-top:1px solid var(--border);padding:20px 28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+    <p style="font-size:12px;color:var(--muted);font-family:var(--mono);">
+      Datos extraídos del <a href="https://subastas.boe.es"
+        style="color:var(--muted);text-decoration:underline;text-underline-offset:3px;" target="_blank"
+        rel="noopener noreferrer">Portal de Subastas del BOE</a>. Sin carácter oficial.
+    </p>
+    <p style="font-size:12px;color:var(--muted2);font-family:var(--mono);">Subastas BOE Inmuebles · España</p>
+  </footer>
+
+  <script>
+    // ── Theme ──────────────────────────────────────────────────────
+    const html = document.documentElement;
+    const btnTheme = document.getElementById('btn-theme');
+    function applyTheme(t) {
+      html.setAttribute('data-theme', t);
+      btnTheme.textContent = t === 'dark' ? '🌙' : '☀️';
+      btnTheme.title = t === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
+      localStorage.setItem('theme', t);
+    }
+    const saved = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    applyTheme(saved || (prefersDark ? 'dark' : 'light'));
+    btnTheme.addEventListener('click', () => applyTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'));
+
+    // ── Formatting ────────────────────────────────────────────────
+    const fmt = n => n == null ? '—' : new Intl.NumberFormat('es-ES').format(Math.round(n));
+    const fmtK = n => {
+      if (n == null) return '—';
+      return n >= 1000000 ? (n / 1000000).toFixed(1).replace('.', ',') + ' M€'
+        : n >= 1000 ? Math.round(n / 1000) + 'K€'
+          : Math.round(n) + '€';
+    };
+
+    function parseDate(s) {
+      if (!s) return null;
+      s = s.trim();
+      if (/^\d{4}-\d{2}-\d{2}/.test(s)) return new Date(s.replace(' ', 'T'));
+      const m = s.match(/^(\d{2})[\/\-](\d{2})[\/\-](\d{4})(?:[T ](\d{2}):(\d{2})(?::(\d{2}))?)?/);
+      if (m) return new Date(`${m[3]}-${m[2]}-${m[1]}T${m[4] || '00'}:${m[5] || '00'}:${m[6] || '00'}`);
+      return null;
+    }
+
+    function formatDateFriendly(s) {
+      const d = parseDate(s);
+      if (!d || isNaN(d)) return s || '—';
+      return d.toLocaleDateString('es-ES', { day: '2-digit', month: 'short', year: 'numeric' });
+    }
+
+    // Days remaining until fecha_fin (null if not applicable)
+    function diasRestantes(s) {
+      if (s.estado !== 'celebrandose') return null;
+      const fin = parseDate(s.fecha_fin);
+      if (!fin || isNaN(fin)) return null;
+      const diff = fin - Date.now();
+      if (diff <= 0) return 0;
+      return Math.ceil(diff / 86400000);
+    }
+
+    // ── Countdown ─────────────────────────────────────────────────
+    function getCountdownData(s) {
+      const estado = (s.estado || '').toLowerCase();
+      const now = Date.now();
+      if (estado === 'finalizada') return { type: 'done' };
+      if (estado === 'proxima_apertura') {
+        const ini = parseDate(s.fecha_inicio);
+        if (!ini || isNaN(ini)) return { type: 'soon' };
+        const diff = ini - now;
+        return diff <= 0 ? { type: 'soon' } : { type: 'soon', ms: diff };
+      }
+      const fin = parseDate(s.fecha_fin);
+      if (!fin || isNaN(fin)) return { type: 'active-nodate' };
+      const diff = fin - now;
+      return diff <= 0 ? { type: 'done' } : { type: 'active', ms: diff };
+    }
+
+    function msToSegments(ms) {
+      const total = Math.floor(ms / 1000);
+      return { d: Math.floor(total / 86400), h: Math.floor(total / 3600) % 24, m: Math.floor(total / 60) % 60, s: total % 60 };
+    }
+    function pad(n) { return String(n).padStart(2, '0'); }
+
+    function countdownHtml(s) {
+      const cd = getCountdownData(s);
+      if (cd.type === 'done') return `<span class="cd-tag cd-tag-done">Finalizada</span>`;
+      if (cd.type === 'active-nodate') return `<span class="cd-tag cd-tag-ok">En curso</span>`;
+      if (cd.type === 'soon') {
+        if (!cd.ms) return `<span class="cd-tag cd-tag-soon">Próxima apertura</span>`;
+        const { d, h } = msToSegments(cd.ms);
+        return `<span class="cd-tag cd-tag-soon">${d > 0 ? `Abre en ${d}d ${h}h` : `Abre en ${h}h`}</span>`;
+      }
+      const { d, h, m } = msToSegments(cd.ms);
+      const urgency = d === 0 && h < 2 ? 'urgent' : d < 2 ? 'warning' : 'ok';
+      const tag = urgency === 'urgent' ? `<span class="cd-tag cd-tag-urgent">¡Cierra pronto!</span>`
+        : urgency === 'warning' ? `<span class="cd-tag cd-tag-warning">Últimas horas</span>`
+          : `<span class="cd-tag cd-tag-ok">En curso</span>`;
+      const id = `cd-${s.id.replace(/[^A-Z0-9]/gi, '_')}`;
+      return `
+        <div class="countdown">
+          <div class="countdown-segments cd-${urgency}" id="${id}" data-fin="${s.fecha_fin}">
+            ${d > 0 ? `<div class="cd-seg"><span class="cd-num">${pad(d)}</span><span class="cd-lbl">días</span></div><span class="cd-sep">:</span>` : ''}
+            <div class="cd-seg"><span class="cd-num">${pad(h)}</span><span class="cd-lbl">h</span></div>
+            <span class="cd-sep">:</span>
+            <div class="cd-seg"><span class="cd-num">${pad(m)}</span><span class="cd-lbl">min</span></div>
+          </div>
+          ${tag}
+        </div>`;
+    }
+
+    // ── Slider de días ─────────────────────────────────────────────
+    const sliderDias = document.getElementById('f-dias');
+    const diasVal = document.getElementById('dias-val');
+
+    function updateSliderTrack() {
+      const pct = (sliderDias.value / sliderDias.max) * 100;
+      sliderDias.style.setProperty('--pct', pct + '%');
+      diasVal.textContent = sliderDias.value == 0 ? 'Todos' : `≤ ${sliderDias.value}d`;
+    }
+    sliderDias.addEventListener('input', () => { updateSliderTrack(); render(); });
+    updateSliderTrack();
+
+    // ── DATA & RENDER ─────────────────────────────────────────────
+    let DATA = [];
+
+    async function loadData() {
+      try {
+        const r = await fetch('subastas.json?t=' + Date.now());
+        const json = await r.json();
+        DATA = json.subastas || [];
+        document.getElementById('js-updated').textContent = (json.ultima_actualizacion || '').replace('T', ' ') || '—';
+        init();
+        reset();
+        startClock();
+      } catch (e) {
+        document.getElementById('grid').innerHTML = `
+          <div class="empty"><div class="empty-icon">⚠</div>
+          <p class="empty-title">No se pudo cargar subastas.json</p>
+          <p class="empty-sub">Colócalo en la misma carpeta y sirve con <code>python -m http.server 8080</code></p></div>`;
+      }
+    }
+
+    function init() {
+      const provs = [...new Set(DATA.map(s => s.provincia).filter(Boolean))].sort();
+      const sel = document.getElementById('f-provincia');
+      provs.forEach(p => { const o = document.createElement('option'); o.value = p; o.textContent = p; sel.appendChild(o); });
+
+      const activas = DATA.filter(s => s.estado === 'celebrandose');
+      const proximas = DATA.filter(s => s.estado === 'proxima_apertura');
+      const ambas = [...activas, ...proximas];
+      const precios = ambas.filter(s => s.precio_salida).map(s => s.precio_salida);
+      const med = precios.length ? precios.reduce((a, b) => a + b, 0) / precios.length : null;
+
+      document.getElementById('stat-total').textContent = DATA.length;
+      document.getElementById('stat-activas').textContent = activas.length;
+      document.getElementById('stat-proximas').textContent = proximas.length;
+      document.getElementById('stat-precio-med').textContent = fmtK(med);
+
+      ['f-search', 'f-precio-min', 'f-precio-max', 'f-provincia', 'f-sort']
+        .forEach(id => document.getElementById(id).addEventListener('input', render));
+      document.querySelectorAll('input[name="estado"],input[name="cargas"]')
+        .forEach(el => el.addEventListener('change', render));
+      document.getElementById('btn-reset').addEventListener('click', reset);
+    }
+
+    function getFilters() {
+      return {
+        q: document.getElementById('f-search').value.toLowerCase().trim(),
+        pMin: parseFloat(document.getElementById('f-precio-min').value) || 0,
+        pMax: parseFloat(document.getElementById('f-precio-max').value) || Infinity,
+        prov: document.getElementById('f-provincia').value,
+        estado: document.querySelector('input[name="estado"]:checked').value,
+        cargas: document.querySelector('input[name="cargas"]:checked').value,
+        sort: document.getElementById('f-sort').value,
+        dias: parseInt(sliderDias.value) || 0,
+      };
+    }
+
+    function applyFilter(f) {
+      return DATA.filter(s => {
+        if (f.q) {
+          const hay = [s.localidad, s.provincia, s.direccion, s.cp].join(' ').toLowerCase();
+          if (!hay.includes(f.q)) return false;
+        }
+        if (s.precio_salida != null) {
+          if (s.precio_salida < f.pMin || s.precio_salida > f.pMax) return false;
+        }
+        if (f.prov && s.provincia !== f.prov) return false;
+        if (f.estado && s.estado !== f.estado) return false;
+        if (f.cargas === 'sin' && s.cargas > 0) return false;
+        if (f.cargas === 'con' && !(s.cargas > 0)) return false;
+
+        // Filtro días restantes: solo filtra activas con fecha
+        if (f.dias > 0) {
+          const dr = diasRestantes(s);
+          // Si la subasta es activa y tiene fecha, aplicar filtro
+          if (s.estado === 'celebrandose') {
+            if (dr === null) return false;  // sin fecha → excluir
+            if (dr > f.dias) return false;
+          }
+          // Las que no son activas (próximas, finalizadas) se excluyen del filtro
+          // a menos que no se haya seleccionado estado específico
+          if (s.estado !== 'celebrandose') return false;
+        }
+
+        return true;
+      });
+    }
+
+    const descuento = s => s.valor_tasacion && s.precio_salida
+      ? Math.round((1 - s.precio_salida / s.valor_tasacion) * 100) : 0;
+
+    function applySort(arr, key) {
+      const cp = [...arr];
+      const BIG = '9999-99-99';
+      const cmp = {
+        precio_asc: (a, b) => (a.precio_salida || Infinity) - (b.precio_salida || Infinity),
+        precio_desc: (a, b) => (b.precio_salida || 0) - (a.precio_salida || 0),
+        descuento_desc: (a, b) => descuento(b) - descuento(a),
+      };
+      return cp.sort(cmp[key] || cmp.precio_asc);
+    }
+
+    function badgeHtml(s) {
+      if (s.estado === 'celebrandose') return '<span class="badge badge-active">● Activa</span>';
+      if (s.estado === 'proxima_apertura') return '<span class="badge badge-prox">● Próxima</span>';
+      return '<span class="badge badge-done">● Finalizada</span>';
+    }
+
+    function specsHtml(s) {
+      const items = [
+        s.metros != null ? `<div class="spec"><span class="spec-val">${Math.round(s.metros)}</span><span class="spec-key">m²</span></div>` : '',
+        s.habitaciones != null ? `<div class="spec"><span class="spec-val">${s.habitaciones}</span><span class="spec-key">Hab.</span></div>` : '',
+        s.banos != null ? `<div class="spec"><span class="spec-val">${s.banos}</span><span class="spec-key">Baños</span></div>` : '',
+        s.planta != null ? `<div class="spec"><span class="spec-val">${s.planta}</span><span class="spec-key">Planta</span></div>` : '',
+      ].filter(Boolean);
+      return items.length ? `<div class="card-specs">${items.join('')}</div>` : '';
+    }
+
+    function cargasHtml(s) {
+      if (s.cargas == null) return '';
+      if (s.cargas === 0) return `<div class="cargas cargas-sin"><div class="cargas-dot"></div>Sin cargas</div>`;
+      return `<div class="cargas cargas-con"><div class="cargas-dot"></div>Cargas: ${fmt(s.cargas)} €</div>`;
+    }
+
+    function card(s) {
+      const desc = descuento(s);
+      return `
+<article class="card" role="listitem">
+  <div class="card-header">
+    <span class="card-id">${s.id}</span>
+    ${badgeHtml(s)}
+  </div>
+  <div>
+    <div class="card-locality">${s.localidad || '—'}${s.provincia ? `<span class="card-prov">${s.provincia}</span>` : ''}</div>
+  </div>
+  ${specsHtml(s)}
+  <div class="card-price">
+    <div>
+      <div class="price-desc">Precio de salida</div>
+      <div class="price-salida">${s.precio_salida != null ? fmt(s.precio_salida) + ' €' : '—'}</div>
+      ${s.valor_tasacion ? `<div class="price-tasacion">Tasación: ${fmt(s.valor_tasacion)} €</div>` : ''}
+    </div>
+    ${desc > 0 ? `<div class="descuento-pill">−${desc}%</div>` : ''}
+  </div>
+  ${cargasHtml(s)}
+  <footer class="card-footer">
+    <div class="dates-row">
+      <div class="date-pill">
+        <span class="date-pill-lbl">Inicio</span>
+        <span class="date-pill-val">${formatDateFriendly(s.fecha_inicio)}</span>
+      </div>
+      <span class="date-arrow">→</span>
+      <div class="date-pill">
+        <span class="date-pill-lbl">Fin</span>
+        <span class="date-pill-val">${formatDateFriendly(s.fecha_fin)}</span>
+      </div>
+    </div>
+    <div class="card-footer-row">
+      ${countdownHtml(s)}
+      <a class="btn-boe" href="${s.enlace}" target="_blank" rel="noopener noreferrer">BOE ↗</a>
+    </div>
+  </footer>
+</article>`;
+    }
+
+    function render() {
+      const f = getFilters();
+      const items = applySort(applyFilter(f), f.sort);
+      document.getElementById('count-visible').textContent = items.length;
+      document.getElementById('count-total').textContent = DATA.length;
+      document.getElementById('grid').innerHTML = items.length
+        ? items.map(card).join('')
+        : `<div class="empty"><div class="empty-icon">◎</div>
+           <p class="empty-title">Sin resultados</p>
+           <p class="empty-sub">Prueba a ajustar los filtros</p></div>`;
+    }
+
+    function reset() {
+      document.getElementById('f-search').value = '';
+      document.getElementById('f-precio-min').value = '';
+      document.getElementById('f-precio-max').value = '';
+      document.getElementById('f-provincia').value = '';
+      document.querySelector('input[name="estado"][value=""]').checked = true;
+      document.querySelector('input[name="cargas"][value=""]').checked = true;
+      document.getElementById('f-sort').value = 'precio_asc';
+      sliderDias.value = 0;
+      updateSliderTrack();
+      render();
+    }
+
+    // ── Live clock ────────────────────────────────────────────────
+    function startClock() {
+      function tick() {
+        document.querySelectorAll('.countdown-segments[data-fin]').forEach(el => {
+          const fin = parseDate(el.dataset.fin);
+          if (!fin || isNaN(fin)) return;
+          const ms = fin - Date.now();
+          if (ms <= 0) { el.closest('.countdown').innerHTML = '<span class="cd-tag cd-tag-done">Finalizada</span>'; return; }
+          const { d, h, m } = msToSegments(ms);
+          const urgency = d === 0 && h < 2 ? 'urgent' : d < 2 ? 'warning' : 'ok';
+          el.className = `countdown-segments cd-${urgency}`;
+          el.innerHTML = `
+            ${d > 0 ? `<div class="cd-seg"><span class="cd-num">${pad(d)}</span><span class="cd-lbl">días</span></div><span class="cd-sep">:</span>` : ''}
+            <div class="cd-seg"><span class="cd-num">${pad(h)}</span><span class="cd-lbl">h</span></div>
+            <span class="cd-sep">:</span>
+            <div class="cd-seg"><span class="cd-num">${pad(m)}</span><span class="cd-lbl">min</span></div>`;
+          const tag = el.parentElement.querySelector('.cd-tag');
+          if (tag) {
+            if (urgency === 'urgent') { tag.className = 'cd-tag cd-tag-urgent'; tag.textContent = '¡Cierra pronto!'; }
+            else if (urgency === 'warning') { tag.className = 'cd-tag cd-tag-warning'; tag.textContent = 'Últimas horas'; }
+            else { tag.className = 'cd-tag cd-tag-ok'; tag.textContent = 'En curso'; }
+          }
+        });
+      }
+      tick();
+      setInterval(tick, 60000);
+    }
+
+    loadData();
+  </script>
+</body>
+
+</html>
