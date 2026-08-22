@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-08-21T04:57:08",
-  "total": 317,
+  "ultima_actualizacion": "2026-08-22T04:51:15",
+  "total": 300,
   "subastas": [
     {
       "id": "SUB-NH-2026-1626089",
@@ -20,7 +20,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:21"
+      "actualizado": "2026-08-22T04:46:28"
     },
     {
       "id": "SUB-JC-2026-263805",
@@ -40,7 +40,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:48"
+      "actualizado": "2026-08-22T04:46:55"
     },
     {
       "id": "SUB-JA-2026-260867",
@@ -60,7 +60,7 @@
       "cargas": null,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:47"
+      "actualizado": "2026-08-22T04:47:54"
     },
     {
       "id": "SUB-JA-2026-264394",
@@ -80,7 +80,7 @@
       "cargas": null,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:15"
+      "actualizado": "2026-08-22T04:50:22"
     },
     {
       "id": "SUB-JC-2026-264483",
@@ -100,7 +100,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:57:04"
+      "actualizado": "2026-08-22T04:51:11"
     },
     {
       "id": "SUB-JA-2026-264170",
@@ -120,7 +120,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:36"
+      "actualizado": "2026-08-22T04:41:51"
     },
     {
       "id": "SUB-JA-2026-260627",
@@ -140,7 +140,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:12"
+      "actualizado": "2026-08-22T04:42:25"
     },
     {
       "id": "SUB-NH-2026-1626090",
@@ -160,7 +160,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:15"
+      "actualizado": "2026-08-22T04:42:27"
     },
     {
       "id": "SUB-JC-2026-262194",
@@ -180,7 +180,7 @@
       "cargas": null,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:06"
+      "actualizado": "2026-08-22T04:49:13"
     },
     {
       "id": "SUB-NH-2026-1646086",
@@ -200,7 +200,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:43"
+      "actualizado": "2026-08-22T04:43:55"
     },
     {
       "id": "SUB-JA-2026-263705",
@@ -220,7 +220,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:46"
+      "actualizado": "2026-08-22T04:43:58"
     },
     {
       "id": "SUB-JA-2026-263958",
@@ -240,7 +240,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:50"
+      "actualizado": "2026-08-22T04:47:57"
     },
     {
       "id": "SUB-JA-2026-264469",
@@ -260,7 +260,7 @@
       "cargas": null,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:18"
+      "actualizado": "2026-08-22T04:50:25"
     },
     {
       "id": "SUB-JA-2026-259811",
@@ -283,26 +283,6 @@
       "actualizado": "2026-08-19T04:46:14"
     },
     {
-      "id": "SUB-JV-2026-264558",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JV-2026-264558",
-      "estado": "finalizada",
-      "cod_provincia": "48",
-      "localidad": "BARAKALDO",
-      "provincia": "Bizkaia",
-      "cp": "48901",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 226318.43,
-      "precio_salida": 176320.94,
-      "tramos_puja": null,
-      "cargas": 49997.49,
-      "fecha_inicio": "23-07-2026 18:00:00 CET (ISO: 2026-07-23T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 08:52:52 CET (ISO: 2026-08-13T08:52:52+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
       "id": "SUB-JA-2026-264575",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264575",
       "estado": "celebrandose",
@@ -320,47 +300,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:58"
-    },
-    {
-      "id": "SUB-JA-2026-264701",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264701",
-      "estado": "finalizada",
-      "cod_provincia": "08",
-      "localidad": "Sant Boi de Llobregat",
-      "provincia": "Barcelona",
-      "cp": "08830",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": null,
-      "precio_salida": null,
-      "tramos_puja": null,
-      "cargas": null,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
-      "id": "SUB-JA-2026-264685",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264685",
-      "estado": "finalizada",
-      "cod_provincia": "12",
-      "localidad": "CASTELLON",
-      "provincia": "Castellón/Castelló",
-      "cp": "12003",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 0.0,
-      "precio_salida": 173100.0,
-      "tramos_puja": 100.0,
-      "cargas": 0.0,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
+      "actualizado": "2026-08-22T04:51:05"
     },
     {
       "id": "SUB-JA-2026-263934",
@@ -380,227 +320,7 @@
       "cargas": null,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:23"
-    },
-    {
-      "id": "SUB-JV-2026-264901",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JV-2026-264901",
-      "estado": "finalizada",
-      "cod_provincia": "24",
-      "localidad": "IGUEÑA -TREMOR DE ARRIBA",
-      "provincia": "León",
-      "cp": "24377",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 0.0,
-      "precio_salida": 3537.87,
-      "tramos_puja": 70.75,
-      "cargas": null,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
-      "id": "SUB-JA-2026-260924",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-260924",
-      "estado": "finalizada",
-      "cod_provincia": "29",
-      "localidad": "MOLLINA",
-      "provincia": "Málaga",
-      "cp": "29532",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 63103.21,
-      "precio_salida": 63103.21,
-      "tramos_puja": 1262.06,
-      "cargas": null,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
-      "id": "SUB-JA-2026-258707",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-258707",
-      "estado": "finalizada",
-      "cod_provincia": "30",
-      "localidad": "Águilas",
-      "provincia": "Murcia",
-      "cp": "30880",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 0.0,
-      "precio_salida": 193392.0,
-      "tramos_puja": 1933.93,
-      "cargas": 0.0,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
-      "id": "SUB-JA-2026-264673",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264673",
-      "estado": "finalizada",
-      "cod_provincia": "32",
-      "localidad": "OURENSE",
-      "provincia": "Ourense",
-      "cp": "32004",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 90852.02,
-      "precio_salida": 90852.02,
-      "tramos_puja": 1817.04,
-      "cargas": 0.0,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
-      "id": "SUB-JA-2026-264062",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264062",
-      "estado": "finalizada",
-      "cod_provincia": "41",
-      "localidad": "DOS HERMANAS",
-      "provincia": "Sevilla",
-      "cp": "41700",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 0.0,
-      "precio_salida": 739210.43,
-      "tramos_puja": 14784.2,
-      "cargas": null,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
-      "id": "SUB-JA-2025-248933",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2025-248933",
-      "estado": "finalizada",
-      "cod_provincia": "43",
-      "localidad": "CAMBRILS",
-      "provincia": "Tarragona",
-      "cp": "43850",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 0.0,
-      "precio_salida": 232248.04,
-      "tramos_puja": null,
-      "cargas": 0.0,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
-      "id": "SUB-JA-2026-258344",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-258344",
-      "estado": "finalizada",
-      "cod_provincia": "43",
-      "localidad": "LA SÉNIA",
-      "provincia": "Tarragona",
-      "cp": "43560",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 0.0,
-      "precio_salida": 145625.75,
-      "tramos_puja": 2912.52,
-      "cargas": null,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
-      "id": "SUB-JA-2026-264399",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264399",
-      "estado": "finalizada",
-      "cod_provincia": "43",
-      "localidad": "CREIXELL",
-      "provincia": "Tarragona",
-      "cp": "43839",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 93702.65,
-      "precio_salida": 93702.65,
-      "tramos_puja": null,
-      "cargas": null,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
-      "id": "SUB-JA-2026-259348",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-259348",
-      "estado": "finalizada",
-      "cod_provincia": "46",
-      "localidad": "PUEBLA DE FARNALS",
-      "provincia": "Valencia/València",
-      "cp": "46139",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 111279.01,
-      "precio_salida": 111279.01,
-      "tramos_puja": null,
-      "cargas": null,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
-      "id": "SUB-JA-2026-264019",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264019",
-      "estado": "finalizada",
-      "cod_provincia": "46",
-      "localidad": "MASSALAVES",
-      "provincia": "Valencia/València",
-      "cp": "46292",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 0.0,
-      "precio_salida": 21882.99,
-      "tramos_puja": null,
-      "cargas": null,
-      "fecha_inicio": "24-07-2026 18:00:00 CET (ISO: 2026-07-24T18:00:00+02:00)",
-      "fecha_fin": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
-    },
-    {
-      "id": "SUB-JA-2026-260587",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-260587",
-      "estado": "finalizada",
-      "cod_provincia": "01",
-      "localidad": "SALVATIERRA",
-      "provincia": "Araba/Álava",
-      "cp": "01200",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 0.0,
-      "precio_salida": 30000.0,
-      "tramos_puja": 100.0,
-      "cargas": null,
-      "fecha_inicio": "28-07-2026 18:00:00 CET (ISO: 2026-07-28T18:00:00+02:00)",
-      "fecha_fin": "17-08-2026 18:00:00 CET (ISO: 2026-08-17T18:00:00+02:00)",
-      "actualizado": "2026-08-15T04:38:22"
+      "actualizado": "2026-08-22T04:44:34"
     },
     {
       "id": "SUB-JA-2026-263379",
@@ -1120,7 +840,7 @@
       "cargas": null,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:57"
+      "actualizado": "2026-08-22T04:46:07"
     },
     {
       "id": "SUB-JA-2026-261265",
@@ -1200,7 +920,7 @@
       "cargas": null,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:00"
+      "actualizado": "2026-08-22T04:46:11"
     },
     {
       "id": "SUB-JA-2026-264919",
@@ -1241,26 +961,6 @@
       "fecha_inicio": "28-07-2026 18:00:00 CET (ISO: 2026-07-28T18:00:00+02:00)",
       "fecha_fin": "17-08-2026 18:00:00 CET (ISO: 2026-08-17T18:00:00+02:00)",
       "actualizado": "2026-08-18T04:42:25"
-    },
-    {
-      "id": "SUB-JA-2026-264739",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264739",
-      "estado": "finalizada",
-      "cod_provincia": "29",
-      "localidad": "MANILVA",
-      "provincia": "Málaga",
-      "cp": "29691",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 0.0,
-      "precio_salida": 149604.0,
-      "tramos_puja": 2992.08,
-      "cargas": null,
-      "fecha_inicio": "28-07-2026 18:00:00 CET (ISO: 2026-07-28T18:00:00+02:00)",
-      "fecha_fin": "17-08-2026 18:00:00 CET (ISO: 2026-08-17T18:00:00+02:00)",
-      "actualizado": "2026-08-14T05:43:12"
     },
     {
       "id": "SUB-JA-2025-252802",
@@ -1443,26 +1143,6 @@
       "actualizado": "2026-08-18T04:42:25"
     },
     {
-      "id": "SUB-JA-2026-263933",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-263933",
-      "estado": "finalizada",
-      "cod_provincia": "35",
-      "localidad": "PLAYA BLANCA",
-      "provincia": "Las Palmas",
-      "cp": "35580",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 130000.0,
-      "precio_salida": 130000.0,
-      "tramos_puja": 2600.0,
-      "cargas": 0.0,
-      "fecha_inicio": "28-07-2026 18:00:00 CET (ISO: 2026-07-28T18:00:00+02:00)",
-      "fecha_fin": "17-08-2026 18:00:00 CET (ISO: 2026-08-17T18:00:00+02:00)",
-      "actualizado": "2026-08-15T04:38:22"
-    },
-    {
       "id": "SUB-JA-2026-264971",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264971",
       "estado": "finalizada",
@@ -1580,7 +1260,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:30"
+      "actualizado": "2026-08-22T04:48:37"
     },
     {
       "id": "SUB-JA-2026-264478",
@@ -2040,7 +1720,7 @@
       "cargas": null,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:11"
+      "actualizado": "2026-08-22T04:45:22"
     },
     {
       "id": "SUB-JA-2025-250623",
@@ -2120,7 +1800,7 @@
       "cargas": null,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:45:37"
+      "actualizado": "2026-08-22T04:39:55"
     },
     {
       "id": "SUB-JA-2026-263895",
@@ -2140,7 +1820,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:45:50"
+      "actualizado": "2026-08-22T04:40:06"
     },
     {
       "id": "SUB-JA-2026-265106",
@@ -2160,7 +1840,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:41"
+      "actualizado": "2026-08-22T04:40:58"
     },
     {
       "id": "SUB-JA-2026-265158",
@@ -2180,7 +1860,7 @@
       "cargas": 0.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:18"
+      "actualizado": "2026-08-22T04:41:34"
     },
     {
       "id": "SUB-JA-2026-264652",
@@ -2200,7 +1880,7 @@
       "cargas": 0.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:24"
+      "actualizado": "2026-08-22T04:41:40"
     },
     {
       "id": "SUB-JA-2026-255939",
@@ -2220,7 +1900,7 @@
       "cargas": 1.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:48"
+      "actualizado": "2026-08-22T04:42:00"
     },
     {
       "id": "SUB-JA-2026-263892",
@@ -2240,7 +1920,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:51"
+      "actualizado": "2026-08-22T04:42:03"
     },
     {
       "id": "SUB-JA-2026-265095",
@@ -2260,7 +1940,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:54"
+      "actualizado": "2026-08-22T04:43:07"
     },
     {
       "id": "SUB-JA-2026-264624",
@@ -2280,7 +1960,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:57"
+      "actualizado": "2026-08-22T04:43:10"
     },
     {
       "id": "SUB-RC-2025-1400100125024",
@@ -2300,7 +1980,7 @@
       "cargas": 0.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:28"
+      "actualizado": "2026-08-22T04:43:40"
     },
     {
       "id": "SUB-JA-2026-264611",
@@ -2320,7 +2000,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:26"
+      "actualizado": "2026-08-22T04:44:37"
     },
     {
       "id": "SUB-JA-2026-264072",
@@ -2340,7 +2020,7 @@
       "cargas": null,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:32"
+      "actualizado": "2026-08-22T04:44:43"
     },
     {
       "id": "SUB-RC-2026-2408000126043",
@@ -2360,7 +2040,7 @@
       "cargas": 0.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:53"
+      "actualizado": "2026-08-22T04:45:04"
     },
     {
       "id": "SUB-JA-2026-263913",
@@ -2380,7 +2060,7 @@
       "cargas": 0.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:02"
+      "actualizado": "2026-08-22T04:45:13"
     },
     {
       "id": "SUB-JA-2026-264898",
@@ -2400,7 +2080,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:24"
+      "actualizado": "2026-08-22T04:45:34"
     },
     {
       "id": "SUB-JA-2026-265154",
@@ -2420,7 +2100,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:36"
+      "actualizado": "2026-08-22T04:45:46"
     },
     {
       "id": "SUB-JA-2026-265040",
@@ -2440,7 +2120,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:09"
+      "actualizado": "2026-08-22T04:46:19"
     },
     {
       "id": "SUB-JA-2026-265159",
@@ -2460,7 +2140,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:12"
+      "actualizado": "2026-08-22T04:46:22"
     },
     {
       "id": "SUB-JA-2026-264074",
@@ -2480,7 +2160,7 @@
       "cargas": 0.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:40"
+      "actualizado": "2026-08-22T04:46:47"
     },
     {
       "id": "SUB-RC-2026-3100200101483",
@@ -2500,7 +2180,7 @@
       "cargas": 0.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:20"
+      "actualizado": "2026-08-22T04:47:26"
     },
     {
       "id": "SUB-RC-2026-3100200102251",
@@ -2520,7 +2200,7 @@
       "cargas": 0.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:23"
+      "actualizado": "2026-08-22T04:47:29"
     },
     {
       "id": "SUB-JV-2026-265157",
@@ -2540,7 +2220,7 @@
       "cargas": 0.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:53"
+      "actualizado": "2026-08-22T04:48:00"
     },
     {
       "id": "SUB-JA-2026-263882",
@@ -2560,7 +2240,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:24"
+      "actualizado": "2026-08-22T04:48:31"
     },
     {
       "id": "SUB-JA-2026-264175",
@@ -2580,7 +2260,7 @@
       "cargas": 0.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:27"
+      "actualizado": "2026-08-22T04:48:34"
     },
     {
       "id": "SUB-JA-2026-264986",
@@ -2600,7 +2280,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:48"
+      "actualizado": "2026-08-22T04:48:55"
     },
     {
       "id": "SUB-JA-2026-265092",
@@ -2620,7 +2300,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:51"
+      "actualizado": "2026-08-22T04:48:58"
     },
     {
       "id": "SUB-JA-2026-264912",
@@ -2640,7 +2320,7 @@
       "cargas": null,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:54"
+      "actualizado": "2026-08-22T04:50:01"
     },
     {
       "id": "SUB-JA-2026-264979",
@@ -2660,7 +2340,7 @@
       "cargas": 0.0,
       "fecha_inicio": "04-08-2026 18:00:00 CET (ISO: 2026-08-04T18:00:00+02:00)",
       "fecha_fin": "24-08-2026 18:00:00 CET (ISO: 2026-08-24T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:36"
+      "actualizado": "2026-08-22T04:50:43"
     },
     {
       "id": "SUB-JA-2026-264823",
@@ -2680,7 +2360,7 @@
       "cargas": null,
       "fecha_inicio": "06-08-2026 18:00:00 CET (ISO: 2026-08-06T18:00:00+02:00)",
       "fecha_fin": "26-08-2026 18:00:00 CET (ISO: 2026-08-26T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:45:34"
+      "actualizado": "2026-08-22T04:39:51"
     },
     {
       "id": "SUB-JA-2026-260843",
@@ -2700,7 +2380,7 @@
       "cargas": 0.0,
       "fecha_inicio": "06-08-2026 18:00:00 CET (ISO: 2026-08-06T18:00:00+02:00)",
       "fecha_fin": "26-08-2026 18:00:00 CET (ISO: 2026-08-26T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:54"
+      "actualizado": "2026-08-22T04:42:06"
     },
     {
       "id": "SUB-JA-2026-263660",
@@ -2720,7 +2400,7 @@
       "cargas": null,
       "fecha_inicio": "06-08-2026 18:00:00 CET (ISO: 2026-08-06T18:00:00+02:00)",
       "fecha_fin": "26-08-2026 18:00:00 CET (ISO: 2026-08-26T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:20"
+      "actualizado": "2026-08-22T04:44:31"
     },
     {
       "id": "SUB-JA-2026-265021",
@@ -2740,7 +2420,7 @@
       "cargas": 0.0,
       "fecha_inicio": "06-08-2026 18:00:00 CET (ISO: 2026-08-06T18:00:00+02:00)",
       "fecha_fin": "26-08-2026 18:00:00 CET (ISO: 2026-08-26T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:44"
+      "actualizado": "2026-08-22T04:44:55"
     },
     {
       "id": "SUB-JA-2026-265098",
@@ -2760,7 +2440,7 @@
       "cargas": null,
       "fecha_inicio": "06-08-2026 18:00:00 CET (ISO: 2026-08-06T18:00:00+02:00)",
       "fecha_fin": "26-08-2026 18:00:00 CET (ISO: 2026-08-26T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:15"
+      "actualizado": "2026-08-22T04:46:25"
     },
     {
       "id": "SUB-JA-2026-262715",
@@ -2780,7 +2460,7 @@
       "cargas": 0.0,
       "fecha_inicio": "06-08-2026 18:00:00 CET (ISO: 2026-08-06T18:00:00+02:00)",
       "fecha_fin": "26-08-2026 18:00:00 CET (ISO: 2026-08-26T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:43"
+      "actualizado": "2026-08-22T04:46:50"
     },
     {
       "id": "SUB-JA-2026-262664",
@@ -2800,7 +2480,7 @@
       "cargas": 0.0,
       "fecha_inicio": "06-08-2026 18:00:00 CET (ISO: 2026-08-06T18:00:00+02:00)",
       "fecha_fin": "26-08-2026 18:00:00 CET (ISO: 2026-08-26T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:41"
+      "actualizado": "2026-08-22T04:47:48"
     },
     {
       "id": "SUB-JA-2026-263989",
@@ -2820,7 +2500,7 @@
       "cargas": 0.0,
       "fecha_inicio": "06-08-2026 18:00:00 CET (ISO: 2026-08-06T18:00:00+02:00)",
       "fecha_fin": "26-08-2026 18:00:00 CET (ISO: 2026-08-26T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:44"
+      "actualizado": "2026-08-22T04:47:51"
     },
     {
       "id": "SUB-JA-2026-264960",
@@ -2840,7 +2520,7 @@
       "cargas": null,
       "fecha_inicio": "06-08-2026 18:00:00 CET (ISO: 2026-08-06T18:00:00+02:00)",
       "fecha_fin": "26-08-2026 18:00:00 CET (ISO: 2026-08-26T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:45"
+      "actualizado": "2026-08-22T04:50:53"
     },
     {
       "id": "SUB-JA-2026-264923",
@@ -2860,7 +2540,7 @@
       "cargas": null,
       "fecha_inicio": "07-08-2026 18:00:00 CET (ISO: 2026-08-07T18:00:00+02:00)",
       "fecha_fin": "27-08-2026 18:00:00 CET (ISO: 2026-08-27T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:45:53"
+      "actualizado": "2026-08-22T04:40:09"
     },
     {
       "id": "SUB-JA-2026-265354",
@@ -2880,7 +2560,7 @@
       "cargas": 0.0,
       "fecha_inicio": "07-08-2026 18:00:00 CET (ISO: 2026-08-07T18:00:00+02:00)",
       "fecha_fin": "27-08-2026 18:00:00 CET (ISO: 2026-08-27T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:45:56"
+      "actualizado": "2026-08-22T04:40:12"
     },
     {
       "id": "SUB-JA-2026-265136",
@@ -2900,7 +2580,7 @@
       "cargas": null,
       "fecha_inicio": "07-08-2026 18:00:00 CET (ISO: 2026-08-07T18:00:00+02:00)",
       "fecha_fin": "27-08-2026 18:00:00 CET (ISO: 2026-08-27T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:02"
+      "actualizado": "2026-08-22T04:41:19"
     },
     {
       "id": "SUB-JA-2026-265276",
@@ -2920,7 +2600,7 @@
       "cargas": 0.0,
       "fecha_inicio": "07-08-2026 18:00:00 CET (ISO: 2026-08-07T18:00:00+02:00)",
       "fecha_fin": "27-08-2026 18:00:00 CET (ISO: 2026-08-27T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:05"
+      "actualizado": "2026-08-22T04:45:16"
     },
     {
       "id": "SUB-JA-2026-263469",
@@ -2940,7 +2620,7 @@
       "cargas": 0.0,
       "fecha_inicio": "07-08-2026 18:00:00 CET (ISO: 2026-08-07T18:00:00+02:00)",
       "fecha_fin": "27-08-2026 18:00:00 CET (ISO: 2026-08-27T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:33"
+      "actualizado": "2026-08-22T04:45:43"
     },
     {
       "id": "SUB-JA-2026-265275",
@@ -2960,12 +2640,12 @@
       "cargas": null,
       "fecha_inicio": "07-08-2026 18:00:00 CET (ISO: 2026-08-07T18:00:00+02:00)",
       "fecha_fin": "27-08-2026 18:00:00 CET (ISO: 2026-08-27T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:57"
+      "actualizado": "2026-08-22T04:50:04"
     },
     {
       "id": "SUB-JA-2026-264405",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264405",
-      "estado": "celebrandose",
+      "estado": "finalizada",
       "cod_provincia": "08",
       "localidad": "BARCELONA",
       "provincia": "Barcelona",
@@ -2980,7 +2660,7 @@
       "cargas": null,
       "fecha_inicio": "14-07-2026 18:00:00 CET (ISO: 2026-07-14T18:00:00+02:00)",
       "fecha_fin": "21-08-2026 20:43:25 CET (ISO: 2026-08-21T20:43:25+02:00)",
-      "actualizado": "2026-08-21T04:47:45"
+      "actualizado": "2026-08-22T04:39:47"
     },
     {
       "id": "SUB-AT-2026-26R4686001045",
@@ -3000,7 +2680,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:45:59"
+      "actualizado": "2026-08-22T04:40:15"
     },
     {
       "id": "SUB-AT-2026-26R4686001183",
@@ -3020,7 +2700,7 @@
       "cargas": 471.63,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:02"
+      "actualizado": "2026-08-22T04:40:18"
     },
     {
       "id": "SUB-AT-2026-26R4686001217",
@@ -3040,7 +2720,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:05"
+      "actualizado": "2026-08-22T04:40:21"
     },
     {
       "id": "SUB-AT-2026-26R4686001228",
@@ -3060,7 +2740,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:08"
+      "actualizado": "2026-08-22T04:40:24"
     },
     {
       "id": "SUB-AT-2026-26R4686001242",
@@ -3080,7 +2760,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:11"
+      "actualizado": "2026-08-22T04:40:27"
     },
     {
       "id": "SUB-JA-2026-181143",
@@ -3100,7 +2780,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:14"
+      "actualizado": "2026-08-22T04:40:30"
     },
     {
       "id": "SUB-JA-2026-265204",
@@ -3120,7 +2800,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:17"
+      "actualizado": "2026-08-22T04:40:33"
     },
     {
       "id": "SUB-AT-2026-26R2886001225",
@@ -3140,7 +2820,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:44"
+      "actualizado": "2026-08-22T04:41:01"
     },
     {
       "id": "SUB-AT-2026-26R2886001372",
@@ -3160,7 +2840,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:47"
+      "actualizado": "2026-08-22T04:41:04"
     },
     {
       "id": "SUB-AT-2026-26R2886001165",
@@ -3180,7 +2860,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:06"
+      "actualizado": "2026-08-22T04:41:22"
     },
     {
       "id": "SUB-AT-2026-26R2886001275",
@@ -3200,7 +2880,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:08"
+      "actualizado": "2026-08-22T04:41:25"
     },
     {
       "id": "SUB-AT-2026-26R2886001293",
@@ -3220,7 +2900,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:11"
+      "actualizado": "2026-08-22T04:41:28"
     },
     {
       "id": "SUB-AT-2026-26R0886001200",
@@ -3240,7 +2920,7 @@
       "cargas": 4308.19,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:27"
+      "actualizado": "2026-08-22T04:41:43"
     },
     {
       "id": "SUB-RC-2026-07003001801",
@@ -3260,7 +2940,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:30"
+      "actualizado": "2026-08-22T04:41:46"
     },
     {
       "id": "SUB-RC-2026-07003001807",
@@ -3280,7 +2960,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:33"
+      "actualizado": "2026-08-22T04:41:48"
     },
     {
       "id": "SUB-AT-2026-25R0886001704",
@@ -3300,7 +2980,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:57"
+      "actualizado": "2026-08-22T04:42:09"
     },
     {
       "id": "SUB-AT-2026-26R0886001178",
@@ -3320,7 +3000,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:00"
+      "actualizado": "2026-08-22T04:42:12"
     },
     {
       "id": "SUB-AT-2026-26R0886001287",
@@ -3340,7 +3020,7 @@
       "cargas": 92543.65,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:03"
+      "actualizado": "2026-08-22T04:42:15"
     },
     {
       "id": "SUB-JA-2026-265103",
@@ -3360,7 +3040,7 @@
       "cargas": null,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:06"
+      "actualizado": "2026-08-22T04:42:18"
     },
     {
       "id": "SUB-JA-2026-265300",
@@ -3380,7 +3060,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:09"
+      "actualizado": "2026-08-22T04:42:21"
     },
     {
       "id": "SUB-AT-2026-26R0686001026",
@@ -3400,7 +3080,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:51"
+      "actualizado": "2026-08-22T04:43:04"
     },
     {
       "id": "SUB-AT-2026-25R4186001767",
@@ -3440,7 +3120,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:01"
+      "actualizado": "2026-08-22T04:43:13"
     },
     {
       "id": "SUB-AT-2026-26R4686001159",
@@ -3460,7 +3140,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:04"
+      "actualizado": "2026-08-22T04:43:16"
     },
     {
       "id": "SUB-AT-2026-26R4686001222",
@@ -3480,7 +3160,7 @@
       "cargas": 48784.79,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:07"
+      "actualizado": "2026-08-22T04:43:19"
     },
     {
       "id": "SUB-AT-2026-26R4686001256",
@@ -3500,7 +3180,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:10"
+      "actualizado": "2026-08-22T04:43:22"
     },
     {
       "id": "SUB-AT-2026-26R4686001277",
@@ -3520,7 +3200,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:13"
+      "actualizado": "2026-08-22T04:43:25"
     },
     {
       "id": "SUB-AT-2026-26R0886001194",
@@ -3540,7 +3220,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:31"
+      "actualizado": "2026-08-22T04:43:43"
     },
     {
       "id": "SUB-AT-2026-26R4686001209",
@@ -3560,7 +3240,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:34"
+      "actualizado": "2026-08-22T04:43:46"
     },
     {
       "id": "SUB-AT-2026-26R4686001210",
@@ -3580,7 +3260,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:37"
+      "actualizado": "2026-08-22T04:43:49"
     },
     {
       "id": "SUB-AT-2026-25R1586001130",
@@ -3600,7 +3280,7 @@
       "cargas": 22038.06,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:40"
+      "actualizado": "2026-08-22T04:43:52"
     },
     {
       "id": "SUB-AT-2026-26R0886001119",
@@ -3620,7 +3300,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:55"
+      "actualizado": "2026-08-22T04:44:07"
     },
     {
       "id": "SUB-AT-2026-26R4686001240",
@@ -3640,7 +3320,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:05"
+      "actualizado": "2026-08-22T04:44:16"
     },
     {
       "id": "SUB-JA-2026-265064",
@@ -3660,7 +3340,7 @@
       "cargas": null,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:29"
+      "actualizado": "2026-08-22T04:44:40"
     },
     {
       "id": "SUB-AT-2026-26R5086001029",
@@ -3680,7 +3360,7 @@
       "cargas": 10051.34,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:41"
+      "actualizado": "2026-08-22T04:44:52"
     },
     {
       "id": "SUB-JA-2026-261377",
@@ -3700,7 +3380,7 @@
       "cargas": null,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:08"
+      "actualizado": "2026-08-22T04:45:19"
     },
     {
       "id": "SUB-AT-2026-25R4686001181",
@@ -3720,7 +3400,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:39"
+      "actualizado": "2026-08-22T04:45:49"
     },
     {
       "id": "SUB-AT-2026-26R2886001194",
@@ -3740,7 +3420,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:42"
+      "actualizado": "2026-08-22T04:45:53"
     },
     {
       "id": "SUB-AT-2026-26R2886001197",
@@ -3760,7 +3440,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:45"
+      "actualizado": "2026-08-22T04:45:56"
     },
     {
       "id": "SUB-AT-2026-26R2886001409",
@@ -3780,7 +3460,7 @@
       "cargas": 187372.06,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:48"
+      "actualizado": "2026-08-22T04:45:58"
     },
     {
       "id": "SUB-AT-2026-26R2886001412",
@@ -3800,7 +3480,7 @@
       "cargas": 46567.3,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:51"
+      "actualizado": "2026-08-22T04:46:01"
     },
     {
       "id": "SUB-JA-2026-261571",
@@ -3820,12 +3500,12 @@
       "cargas": null,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:54"
+      "actualizado": "2026-08-22T04:46:04"
     },
     {
       "id": "SUB-JA-2026-265392",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-265392",
-      "estado": "celebrandose",
+      "estado": "finalizada",
       "cod_provincia": "29",
       "localidad": "MALAGA",
       "provincia": "Málaga",
@@ -3840,7 +3520,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:18"
+      "actualizado": "2026-08-22T04:39:47"
     },
     {
       "id": "SUB-JC-2026-264626",
@@ -3860,7 +3540,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:52"
+      "actualizado": "2026-08-22T04:46:58"
     },
     {
       "id": "SUB-RC-2026-3100200102076",
@@ -3880,7 +3560,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:26"
+      "actualizado": "2026-08-22T04:47:32"
     },
     {
       "id": "SUB-RC-2026-3100200103076",
@@ -3900,7 +3580,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:29"
+      "actualizado": "2026-08-22T04:47:35"
     },
     {
       "id": "SUB-JA-2026-265407",
@@ -3920,7 +3600,7 @@
       "cargas": null,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:12"
+      "actualizado": "2026-08-22T04:48:18"
     },
     {
       "id": "SUB-AT-2026-26R3986001027",
@@ -3940,7 +3620,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:21"
+      "actualizado": "2026-08-22T04:48:28"
     },
     {
       "id": "SUB-AT-2026-25R0886001626",
@@ -3960,7 +3640,7 @@
       "cargas": 30512.89,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:54"
+      "actualizado": "2026-08-22T04:49:01"
     },
     {
       "id": "SUB-AT-2026-26R0886001232",
@@ -3980,7 +3660,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:57"
+      "actualizado": "2026-08-22T04:49:04"
     },
     {
       "id": "SUB-AT-2026-26R0886001239",
@@ -4000,7 +3680,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:00"
+      "actualizado": "2026-08-22T04:49:07"
     },
     {
       "id": "SUB-JA-2026-265231",
@@ -4020,7 +3700,7 @@
       "cargas": null,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:03"
+      "actualizado": "2026-08-22T04:49:10"
     },
     {
       "id": "SUB-JA-2026-265203",
@@ -4040,7 +3720,7 @@
       "cargas": null,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:36"
+      "actualizado": "2026-08-22T04:49:43"
     },
     {
       "id": "SUB-AT-2026-26R4686001197",
@@ -4060,7 +3740,7 @@
       "cargas": 3043.44,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:00"
+      "actualizado": "2026-08-22T04:50:07"
     },
     {
       "id": "SUB-AT-2026-26R4686001212",
@@ -4080,7 +3760,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:03"
+      "actualizado": "2026-08-22T04:50:10"
     },
     {
       "id": "SUB-AT-2026-26R4686001243",
@@ -4100,7 +3780,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:06"
+      "actualizado": "2026-08-22T04:50:13"
     },
     {
       "id": "SUB-JA-2026-264619",
@@ -4120,7 +3800,7 @@
       "cargas": null,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:09"
+      "actualizado": "2026-08-22T04:50:16"
     },
     {
       "id": "SUB-JA-2026-264792",
@@ -4140,7 +3820,7 @@
       "cargas": null,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:12"
+      "actualizado": "2026-08-22T04:50:19"
     },
     {
       "id": "SUB-JA-2026-265323",
@@ -4160,7 +3840,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:39"
+      "actualizado": "2026-08-22T04:50:46"
     },
     {
       "id": "SUB-AT-2026-26R5086001018",
@@ -4180,7 +3860,7 @@
       "cargas": 14740.12,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:49"
+      "actualizado": "2026-08-22T04:50:56"
     },
     {
       "id": "SUB-AT-2026-26R5086001021",
@@ -4200,7 +3880,7 @@
       "cargas": 9501.97,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:52"
+      "actualizado": "2026-08-22T04:50:59"
     },
     {
       "id": "SUB-AT-2026-26R5086001028",
@@ -4220,7 +3900,7 @@
       "cargas": 0.0,
       "fecha_inicio": "11-08-2026 18:00:00 CET (ISO: 2026-08-11T18:00:00+02:00)",
       "fecha_fin": "31-08-2026 18:00:00 CET (ISO: 2026-08-31T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:55"
+      "actualizado": "2026-08-22T04:51:02"
     },
     {
       "id": "SUB-JA-2026-265363",
@@ -4240,7 +3920,7 @@
       "cargas": 0.0,
       "fecha_inicio": "12-08-2026 18:00:00 CET (ISO: 2026-08-12T18:00:00+02:00)",
       "fecha_fin": "01-09-2026 18:00:00 CET (ISO: 2026-09-01T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:57:01"
+      "actualizado": "2026-08-22T04:51:08"
     },
     {
       "id": "SUB-JA-2026-257765",
@@ -4260,7 +3940,7 @@
       "cargas": 0.0,
       "fecha_inicio": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
       "fecha_fin": "02-09-2026 18:00:00 CET (ISO: 2026-09-02T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:18"
+      "actualizado": "2026-08-22T04:42:31"
     },
     {
       "id": "SUB-RC-2026-005400126",
@@ -4280,7 +3960,7 @@
       "cargas": 0.0,
       "fecha_inicio": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
       "fecha_fin": "02-09-2026 18:00:00 CET (ISO: 2026-09-02T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:16"
+      "actualizado": "2026-08-22T04:43:28"
     },
     {
       "id": "SUB-JA-2026-262997",
@@ -4300,7 +3980,7 @@
       "cargas": null,
       "fecha_inicio": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
       "fecha_fin": "02-09-2026 18:00:00 CET (ISO: 2026-09-02T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:24"
+      "actualizado": "2026-08-22T04:46:31"
     },
     {
       "id": "SUB-JA-2026-264087",
@@ -4320,7 +4000,7 @@
       "cargas": 1335.0,
       "fecha_inicio": "13-08-2026 18:00:00 CET (ISO: 2026-08-13T18:00:00+02:00)",
       "fecha_fin": "02-09-2026 18:00:00 CET (ISO: 2026-09-02T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:27"
+      "actualizado": "2026-08-22T04:46:34"
     },
     {
       "id": "SUB-JA-2026-264381",
@@ -4340,7 +4020,7 @@
       "cargas": null,
       "fecha_inicio": "14-08-2026 18:00:00 CET (ISO: 2026-08-14T18:00:00+02:00)",
       "fecha_fin": "03-09-2026 18:00:00 CET (ISO: 2026-09-03T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:50"
+      "actualizado": "2026-08-22T04:41:07"
     },
     {
       "id": "SUB-JA-2026-264452",
@@ -4360,7 +4040,7 @@
       "cargas": null,
       "fecha_inicio": "14-08-2026 18:00:00 CET (ISO: 2026-08-14T18:00:00+02:00)",
       "fecha_fin": "03-09-2026 18:00:00 CET (ISO: 2026-09-03T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:53"
+      "actualizado": "2026-08-22T04:41:10"
     },
     {
       "id": "SUB-JA-2026-258299",
@@ -4380,7 +4060,7 @@
       "cargas": 0.0,
       "fecha_inicio": "14-08-2026 18:00:00 CET (ISO: 2026-08-14T18:00:00+02:00)",
       "fecha_fin": "03-09-2026 18:00:00 CET (ISO: 2026-09-03T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:21"
+      "actualizado": "2026-08-22T04:42:34"
     },
     {
       "id": "SUB-JA-2026-263947",
@@ -4400,7 +4080,7 @@
       "cargas": 0.0,
       "fecha_inicio": "14-08-2026 18:00:00 CET (ISO: 2026-08-14T18:00:00+02:00)",
       "fecha_fin": "03-09-2026 18:00:00 CET (ISO: 2026-09-03T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:24"
+      "actualizado": "2026-08-22T04:42:37"
     },
     {
       "id": "SUB-JA-2026-260709",
@@ -4420,7 +4100,7 @@
       "cargas": null,
       "fecha_inicio": "14-08-2026 18:00:00 CET (ISO: 2026-08-14T18:00:00+02:00)",
       "fecha_fin": "03-09-2026 18:00:00 CET (ISO: 2026-09-03T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:08"
+      "actualizado": "2026-08-22T04:44:19"
     },
     {
       "id": "SUB-JA-2026-265096",
@@ -4440,7 +4120,7 @@
       "cargas": 0.0,
       "fecha_inicio": "14-08-2026 18:00:00 CET (ISO: 2026-08-14T18:00:00+02:00)",
       "fecha_fin": "03-09-2026 18:00:00 CET (ISO: 2026-09-03T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:56"
+      "actualizado": "2026-08-22T04:45:07"
     },
     {
       "id": "SUB-JA-2026-264289",
@@ -4460,7 +4140,7 @@
       "cargas": 0.0,
       "fecha_inicio": "14-08-2026 18:00:00 CET (ISO: 2026-08-14T18:00:00+02:00)",
       "fecha_fin": "03-09-2026 18:00:00 CET (ISO: 2026-09-03T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:15"
+      "actualizado": "2026-08-22T04:48:21"
     },
     {
       "id": "SUB-JA-2026-265432",
@@ -4480,7 +4160,7 @@
       "cargas": null,
       "fecha_inicio": "14-08-2026 18:00:00 CET (ISO: 2026-08-14T18:00:00+02:00)",
       "fecha_fin": "03-09-2026 18:00:00 CET (ISO: 2026-09-03T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:09"
+      "actualizado": "2026-08-22T04:49:16"
     },
     {
       "id": "SUB-JA-2026-264147",
@@ -4500,7 +4180,7 @@
       "cargas": null,
       "fecha_inicio": "14-08-2026 18:00:00 CET (ISO: 2026-08-14T18:00:00+02:00)",
       "fecha_fin": "03-09-2026 18:00:00 CET (ISO: 2026-09-03T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:21"
+      "actualizado": "2026-08-22T04:50:28"
     },
     {
       "id": "SUB-JA-2026-265141",
@@ -4520,27 +4200,7 @@
       "cargas": null,
       "fecha_inicio": "14-08-2026 18:00:00 CET (ISO: 2026-08-14T18:00:00+02:00)",
       "fecha_fin": "03-09-2026 18:00:00 CET (ISO: 2026-09-03T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:24"
-    },
-    {
-      "id": "SUB-AT-2026-24R2886001465",
-      "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-AT-2026-24R2886001465",
-      "estado": "finalizada",
-      "cod_provincia": "03",
-      "localidad": "TORREVIEJA",
-      "provincia": "Alicante/Alacant",
-      "cp": "03183",
-      "metros": null,
-      "habitaciones": null,
-      "banos": null,
-      "planta": null,
-      "valor_tasacion": 155323.72,
-      "precio_salida": 155323.72,
-      "tramos_puja": 2000.0,
-      "cargas": 0.0,
-      "fecha_inicio": "21-04-2026 18:00:00 CET (ISO: 2026-04-21T18:00:00+02:00)",
-      "fecha_fin": "14-08-2026 08:03:01 CET (ISO: 2026-08-14T08:03:01+02:00)",
-      "actualizado": "2026-08-15T04:38:22"
+      "actualizado": "2026-08-22T04:50:31"
     },
     {
       "id": "SUB-AT-2026-26R4586001119",
@@ -4560,7 +4220,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:45:40"
+      "actualizado": "2026-08-22T04:39:57"
     },
     {
       "id": "SUB-AT-2026-26R4586001160",
@@ -4580,7 +4240,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:45:43"
+      "actualizado": "2026-08-22T04:40:00"
     },
     {
       "id": "SUB-JA-2026-263999",
@@ -4600,7 +4260,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:20"
+      "actualizado": "2026-08-22T04:40:37"
     },
     {
       "id": "SUB-JA-2026-264566",
@@ -4620,7 +4280,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:23"
+      "actualizado": "2026-08-22T04:40:40"
     },
     {
       "id": "SUB-JA-2026-264705",
@@ -4640,7 +4300,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:26"
+      "actualizado": "2026-08-22T04:40:43"
     },
     {
       "id": "SUB-JA-2026-265194",
@@ -4660,7 +4320,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:29"
+      "actualizado": "2026-08-22T04:40:46"
     },
     {
       "id": "SUB-JA-2026-265255",
@@ -4680,7 +4340,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:32"
+      "actualizado": "2026-08-22T04:40:49"
     },
     {
       "id": "SUB-JA-2026-265292",
@@ -4700,7 +4360,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:35"
+      "actualizado": "2026-08-22T04:40:52"
     },
     {
       "id": "SUB-JA-2026-261198",
@@ -4720,7 +4380,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:56"
+      "actualizado": "2026-08-22T04:41:13"
     },
     {
       "id": "SUB-JA-2026-264735",
@@ -4740,7 +4400,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:46:59"
+      "actualizado": "2026-08-22T04:41:16"
     },
     {
       "id": "SUB-JA-2024-227082",
@@ -4760,7 +4420,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:15"
+      "actualizado": "2026-08-22T04:41:31"
     },
     {
       "id": "SUB-JA-2026-262582",
@@ -4780,7 +4440,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:39"
+      "actualizado": "2026-08-22T04:41:54"
     },
     {
       "id": "SUB-JA-2026-264731",
@@ -4800,7 +4460,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:47:41"
+      "actualizado": "2026-08-22T04:41:57"
     },
     {
       "id": "SUB-JA-2026-258947",
@@ -4820,7 +4480,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:27"
+      "actualizado": "2026-08-22T04:42:40"
     },
     {
       "id": "SUB-JA-2026-262821",
@@ -4840,7 +4500,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:30"
+      "actualizado": "2026-08-22T04:42:43"
     },
     {
       "id": "SUB-JA-2026-263910",
@@ -4860,7 +4520,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:33"
+      "actualizado": "2026-08-22T04:42:46"
     },
     {
       "id": "SUB-JA-2026-264123",
@@ -4880,7 +4540,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:36"
+      "actualizado": "2026-08-22T04:42:49"
     },
     {
       "id": "SUB-JA-2026-259254",
@@ -4900,7 +4560,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:48"
+      "actualizado": "2026-08-22T04:43:01"
     },
     {
       "id": "SUB-JA-2026-263519",
@@ -4920,7 +4580,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:19"
+      "actualizado": "2026-08-22T04:43:31"
     },
     {
       "id": "SUB-AT-2026-26R4586001082",
@@ -4940,7 +4600,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:22"
+      "actualizado": "2026-08-22T04:43:34"
     },
     {
       "id": "SUB-AT-2026-26R4586001090",
@@ -4960,7 +4620,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:25"
+      "actualizado": "2026-08-22T04:43:37"
     },
     {
       "id": "SUB-AT-2026-26R4586001114",
@@ -4980,7 +4640,7 @@
       "cargas": 27961.37,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:49"
+      "actualizado": "2026-08-22T04:44:01"
     },
     {
       "id": "SUB-AT-2026-26R4586001118",
@@ -5000,7 +4660,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:52"
+      "actualizado": "2026-08-22T04:44:04"
     },
     {
       "id": "SUB-JA-2026-263518",
@@ -5020,7 +4680,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:49:58"
+      "actualizado": "2026-08-22T04:44:10"
     },
     {
       "id": "SUB-JA-2026-264526",
@@ -5040,7 +4700,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:02"
+      "actualizado": "2026-08-22T04:44:13"
     },
     {
       "id": "SUB-JA-2026-260901",
@@ -5060,7 +4720,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:14"
+      "actualizado": "2026-08-22T04:44:25"
     },
     {
       "id": "SUB-JA-2026-264448",
@@ -5080,7 +4740,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:17"
+      "actualizado": "2026-08-22T04:44:28"
     },
     {
       "id": "SUB-AT-2026-26R4186001151",
@@ -5100,7 +4760,7 @@
       "cargas": 134506.11,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:35"
+      "actualizado": "2026-08-22T04:44:46"
     },
     {
       "id": "SUB-JA-2026-262310",
@@ -5120,7 +4780,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:38"
+      "actualizado": "2026-08-22T04:44:50"
     },
     {
       "id": "SUB-JA-2026-261983",
@@ -5140,7 +4800,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:47"
+      "actualizado": "2026-08-22T04:44:58"
     },
     {
       "id": "SUB-JA-2026-264674",
@@ -5160,7 +4820,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:50"
+      "actualizado": "2026-08-22T04:45:01"
     },
     {
       "id": "SUB-JA-2026-264877",
@@ -5180,7 +4840,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:50:59"
+      "actualizado": "2026-08-22T04:45:10"
     },
     {
       "id": "SUB-JA-2025-256264",
@@ -5200,7 +4860,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:14"
+      "actualizado": "2026-08-22T04:45:25"
     },
     {
       "id": "SUB-JA-2026-263505",
@@ -5220,7 +4880,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:18"
+      "actualizado": "2026-08-22T04:45:28"
     },
     {
       "id": "SUB-JA-2026-264788",
@@ -5240,7 +4900,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:21"
+      "actualizado": "2026-08-22T04:45:31"
     },
     {
       "id": "SUB-JA-2026-264751",
@@ -5260,7 +4920,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:51:27"
+      "actualizado": "2026-08-22T04:45:37"
     },
     {
       "id": "SUB-JA-2026-263421",
@@ -5280,7 +4940,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:03"
+      "actualizado": "2026-08-22T04:46:14"
     },
     {
       "id": "SUB-JA-2026-265056",
@@ -5300,7 +4960,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:06"
+      "actualizado": "2026-08-22T04:46:17"
     },
     {
       "id": "SUB-AT-2026-25R2986001105",
@@ -5320,7 +4980,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:31"
+      "actualizado": "2026-08-22T04:46:38"
     },
     {
       "id": "SUB-AT-2026-26R4586001115",
@@ -5340,7 +5000,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:34"
+      "actualizado": "2026-08-22T04:46:41"
     },
     {
       "id": "SUB-JA-2026-249583",
@@ -5360,7 +5020,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:56"
+      "actualizado": "2026-08-22T04:47:02"
     },
     {
       "id": "SUB-JA-2026-261143",
@@ -5380,7 +5040,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:52:59"
+      "actualizado": "2026-08-22T04:47:05"
     },
     {
       "id": "SUB-JA-2026-261157",
@@ -5400,7 +5060,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:03"
+      "actualizado": "2026-08-22T04:47:09"
     },
     {
       "id": "SUB-JA-2026-262396",
@@ -5420,7 +5080,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:06"
+      "actualizado": "2026-08-22T04:47:13"
     },
     {
       "id": "SUB-JA-2026-263389",
@@ -5440,7 +5100,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:10"
+      "actualizado": "2026-08-22T04:47:16"
     },
     {
       "id": "SUB-JA-2026-264542",
@@ -5460,7 +5120,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:06"
+      "actualizado": "2026-08-22T04:48:12"
     },
     {
       "id": "SUB-RC-2026-3700800120261",
@@ -5480,7 +5140,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:09"
+      "actualizado": "2026-08-22T04:48:15"
     },
     {
       "id": "SUB-AT-2026-26R3886001018",
@@ -5500,7 +5160,7 @@
       "cargas": 59006.37,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:18"
+      "actualizado": "2026-08-22T04:48:24"
     },
     {
       "id": "SUB-AT-2026-26R4186001210",
@@ -5520,7 +5180,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:33"
+      "actualizado": "2026-08-22T04:48:40"
     },
     {
       "id": "SUB-AT-2026-26R4186001371",
@@ -5540,7 +5200,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:36"
+      "actualizado": "2026-08-22T04:48:43"
     },
     {
       "id": "SUB-JA-2026-262857",
@@ -5560,7 +5220,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:12"
+      "actualizado": "2026-08-22T04:49:19"
     },
     {
       "id": "SUB-JA-2026-263644",
@@ -5580,7 +5240,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:15"
+      "actualizado": "2026-08-22T04:49:22"
     },
     {
       "id": "SUB-JA-2026-264357",
@@ -5600,7 +5260,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:18"
+      "actualizado": "2026-08-22T04:49:25"
     },
     {
       "id": "SUB-JA-2026-264684",
@@ -5620,7 +5280,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:21"
+      "actualizado": "2026-08-22T04:49:28"
     },
     {
       "id": "SUB-JA-2026-264847",
@@ -5640,7 +5300,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:24"
+      "actualizado": "2026-08-22T04:49:31"
     },
     {
       "id": "SUB-AT-2026-26R4586001059",
@@ -5660,7 +5320,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:39"
+      "actualizado": "2026-08-22T04:49:46"
     },
     {
       "id": "SUB-AT-2026-26R4586001091",
@@ -5680,7 +5340,7 @@
       "cargas": 122171.44,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:42"
+      "actualizado": "2026-08-22T04:49:49"
     },
     {
       "id": "SUB-AT-2026-26R4586001107",
@@ -5700,7 +5360,7 @@
       "cargas": 73998.03,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:45"
+      "actualizado": "2026-08-22T04:49:52"
     },
     {
       "id": "SUB-AT-2026-26R4586001108",
@@ -5720,7 +5380,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:48"
+      "actualizado": "2026-08-22T04:49:55"
     },
     {
       "id": "SUB-AT-2026-26R4586001129",
@@ -5740,7 +5400,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:51"
+      "actualizado": "2026-08-22T04:49:58"
     },
     {
       "id": "SUB-JA-2026-264244",
@@ -5760,7 +5420,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:27"
+      "actualizado": "2026-08-22T04:50:34"
     },
     {
       "id": "SUB-JA-2026-264367",
@@ -5780,7 +5440,7 @@
       "cargas": null,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:30"
+      "actualizado": "2026-08-22T04:50:37"
     },
     {
       "id": "SUB-AT-2026-26R3886001007",
@@ -5800,7 +5460,7 @@
       "cargas": 0.0,
       "fecha_inicio": "18-08-2026 18:00:00 CET (ISO: 2026-08-18T18:00:00+02:00)",
       "fecha_fin": "07-09-2026 18:00:00 CET (ISO: 2026-09-07T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:56:42"
+      "actualizado": "2026-08-22T04:50:50"
     },
     {
       "id": "SUB-JA-2026-264177",
@@ -5840,7 +5500,7 @@
       "cargas": null,
       "fecha_inicio": "20-08-2026 18:00:00 CET (ISO: 2026-08-20T18:00:00+02:00)",
       "fecha_fin": "09-09-2026 18:00:00 CET (ISO: 2026-09-09T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:39"
+      "actualizado": "2026-08-22T04:42:52"
     },
     {
       "id": "SUB-JA-2026-264864",
@@ -5860,7 +5520,7 @@
       "cargas": 0.0,
       "fecha_inicio": "20-08-2026 18:00:00 CET (ISO: 2026-08-20T18:00:00+02:00)",
       "fecha_fin": "09-09-2026 18:00:00 CET (ISO: 2026-09-09T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:42"
+      "actualizado": "2026-08-22T04:42:55"
     },
     {
       "id": "SUB-JA-2026-265052",
@@ -5880,7 +5540,7 @@
       "cargas": null,
       "fecha_inicio": "20-08-2026 18:00:00 CET (ISO: 2026-08-20T18:00:00+02:00)",
       "fecha_fin": "09-09-2026 18:00:00 CET (ISO: 2026-09-09T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:48:45"
+      "actualizado": "2026-08-22T04:42:58"
     },
     {
       "id": "SUB-JA-2026-262603",
@@ -5900,7 +5560,7 @@
       "cargas": 0.0,
       "fecha_inicio": "20-08-2026 18:00:00 CET (ISO: 2026-08-20T18:00:00+02:00)",
       "fecha_fin": "09-09-2026 18:00:00 CET (ISO: 2026-09-09T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:53:56"
+      "actualizado": "2026-08-22T04:48:03"
     },
     {
       "id": "SUB-JA-2026-263864",
@@ -5920,7 +5580,7 @@
       "cargas": 0.0,
       "fecha_inicio": "20-08-2026 18:00:00 CET (ISO: 2026-08-20T18:00:00+02:00)",
       "fecha_fin": "09-09-2026 18:00:00 CET (ISO: 2026-09-09T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:00"
+      "actualizado": "2026-08-22T04:48:06"
     },
     {
       "id": "SUB-JA-2026-263433",
@@ -5940,7 +5600,7 @@
       "cargas": null,
       "fecha_inicio": "20-08-2026 18:00:00 CET (ISO: 2026-08-20T18:00:00+02:00)",
       "fecha_fin": "09-09-2026 18:00:00 CET (ISO: 2026-09-09T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:54:39"
+      "actualizado": "2026-08-22T04:48:46"
     },
     {
       "id": "SUB-JA-2026-264941",
@@ -5960,7 +5620,7 @@
       "cargas": null,
       "fecha_inicio": "20-08-2026 18:00:00 CET (ISO: 2026-08-20T18:00:00+02:00)",
       "fecha_fin": "09-09-2026 18:00:00 CET (ISO: 2026-09-09T18:00:00+02:00)",
-      "actualizado": "2026-08-21T04:55:27"
+      "actualizado": "2026-08-22T04:49:34"
     },
     {
       "id": "SUB-JA-2026-260106",
@@ -5985,7 +5645,7 @@
     {
       "id": "SUB-JA-2026-264998",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264998",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "02",
       "localidad": "HELLIN",
       "provincia": "Albacete",
@@ -5998,14 +5658,14 @@
       "precio_salida": 133165.44,
       "tramos_puja": null,
       "cargas": 0.0,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:45:47"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:40:04"
     },
     {
       "id": "SUB-JA-2026-264621",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264621",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "03",
       "localidad": "BENIDORM",
       "provincia": "Alicante/Alacant",
@@ -6018,14 +5678,14 @@
       "precio_salida": 126614.0,
       "tramos_puja": 2532.28,
       "cargas": null,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:46:38"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:40:55"
     },
     {
       "id": "SUB-NH-2026-1646088",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-NH-2026-1646088",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "06",
       "localidad": "Badajoz",
       "provincia": "Badajoz",
@@ -6038,14 +5698,14 @@
       "precio_salida": 381194.38,
       "tramos_puja": 1000.0,
       "cargas": 0.0,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:47:21"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:41:37"
     },
     {
       "id": "SUB-JA-2026-263239",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-263239",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "26",
       "localidad": "Logroño",
       "provincia": "La Rioja",
@@ -6058,14 +5718,14 @@
       "precio_salida": 107703.69,
       "tramos_puja": null,
       "cargas": null,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:51:30"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:45:40"
     },
     {
       "id": "SUB-JA-2026-263499",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-263499",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "29",
       "localidad": "MALAGA",
       "provincia": "Málaga",
@@ -6078,14 +5738,14 @@
       "precio_salida": 161172.43,
       "tramos_puja": 3223.44,
       "cargas": 0.0,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:52:37"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:46:44"
     },
     {
       "id": "SUB-JA-2026-257459",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-257459",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "30",
       "localidad": "MURCIA",
       "provincia": "Murcia",
@@ -6098,14 +5758,14 @@
       "precio_salida": 412087.5,
       "tramos_puja": 4120.89,
       "cargas": 0.0,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:53:14"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:47:20"
     },
     {
       "id": "SUB-JA-2026-265478",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-265478",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "30",
       "localidad": "Puerto Lumbreras",
       "provincia": "Murcia",
@@ -6118,14 +5778,14 @@
       "precio_salida": 100859.9,
       "tramos_puja": 2017.21,
       "cargas": 0.0,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:53:17"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:47:23"
     },
     {
       "id": "SUB-JA-2026-262108",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-262108",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "31",
       "localidad": "Pamplona",
       "provincia": "Navarra",
@@ -6138,14 +5798,14 @@
       "precio_salida": 325488.65,
       "tramos_puja": null,
       "cargas": 0.0,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:53:32"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:47:38"
     },
     {
       "id": "SUB-JA-2026-262163",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-262163",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "31",
       "localidad": "Tafalla",
       "provincia": "Navarra",
@@ -6158,14 +5818,14 @@
       "precio_salida": 89759.0,
       "tramos_puja": null,
       "cargas": null,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:53:35"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:47:42"
     },
     {
       "id": "SUB-JA-2026-264543",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264543",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "35",
       "localidad": "Las Palmas de Gran Canaria",
       "provincia": "Las Palmas",
@@ -6178,14 +5838,14 @@
       "precio_salida": 99027.5,
       "tramos_puja": 1980.55,
       "cargas": 0.0,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:54:03"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:48:09"
     },
     {
       "id": "SUB-JA-2026-263315",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-263315",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "41",
       "localidad": "Sevilla",
       "provincia": "Sevilla",
@@ -6198,14 +5858,14 @@
       "precio_salida": 230073.29,
       "tramos_puja": 4601.46,
       "cargas": 0.0,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:54:42"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:48:49"
     },
     {
       "id": "SUB-JA-2026-265371",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-265371",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "41",
       "localidad": "TOMARES",
       "provincia": "Sevilla",
@@ -6218,14 +5878,14 @@
       "precio_salida": 106283.1,
       "tramos_puja": 2125.66,
       "cargas": 0.0,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:54:45"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:48:52"
     },
     {
       "id": "SUB-JA-2026-264679",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264679",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "43",
       "localidad": "Reus",
       "provincia": "Tarragona",
@@ -6238,14 +5898,14 @@
       "precio_salida": 273623.0,
       "tramos_puja": 5472.46,
       "cargas": null,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:55:30"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:49:37"
     },
     {
       "id": "SUB-JA-2026-265287",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-265287",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "43",
       "localidad": "Reus",
       "provincia": "Tarragona",
@@ -6258,14 +5918,14 @@
       "precio_salida": 186727.0,
       "tramos_puja": null,
       "cargas": null,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:55:33"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:49:40"
     },
     {
       "id": "SUB-JA-2026-252131",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-252131",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "46",
       "localidad": "GANDÍA",
       "provincia": "Valencia/València",
@@ -6278,14 +5938,14 @@
       "precio_salida": 242820.0,
       "tramos_puja": null,
       "cargas": null,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:56:33"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:50:40"
     },
     {
       "id": "SUB-JA-2026-264933",
       "enlace": "https://subastas.boe.es/detalleSubasta.php?idSub=SUB-JA-2026-264933",
-      "estado": "proxima_apertura",
+      "estado": "celebrandose",
       "cod_provincia": "50",
       "localidad": "ZARAGOZA",
       "provincia": "Zaragoza",
@@ -6298,9 +5958,9 @@
       "precio_salida": 258480.0,
       "tramos_puja": 5169.6,
       "cargas": null,
-      "fecha_inicio": "",
-      "fecha_fin": "",
-      "actualizado": "2026-08-21T04:57:07"
+      "fecha_inicio": "21-08-2026 18:00:00 CET (ISO: 2026-08-21T18:00:00+02:00)",
+      "fecha_fin": "10-09-2026 18:00:00 CET (ISO: 2026-09-10T18:00:00+02:00)",
+      "actualizado": "2026-08-22T04:51:14"
     },
     {
       "id": "SUB-JA-2026-264285",
@@ -6320,7 +5980,7 @@
       "cargas": null,
       "fecha_inicio": "14-07-2026 18:00:00 CET (ISO: 2026-07-14T18:00:00+02:00)",
       "fecha_fin": "23-08-2026 19:08:19 CET (ISO: 2026-08-23T19:08:19+02:00)",
-      "actualizado": "2026-08-21T04:53:38"
+      "actualizado": "2026-08-22T04:47:45"
     },
     {
       "id": "SUB-JA-2026-264588",
@@ -6340,7 +6000,7 @@
       "cargas": 0.0,
       "fecha_inicio": "28-07-2026 18:00:00 CET (ISO: 2026-07-28T18:00:00+02:00)",
       "fecha_fin": "06-09-2026 19:43:36 CET (ISO: 2026-09-06T19:43:36+02:00)",
-      "actualizado": "2026-08-21T04:50:11"
+      "actualizado": "2026-08-22T04:44:22"
     }
   ]
 }
